@@ -9,7 +9,6 @@ let cont = 2;
 
 input.focus();
 
-console.log(numero);
 
 function verifica() {
 
