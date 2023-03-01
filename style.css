@@ -15,12 +15,12 @@ body {
 }
 
 .conteudo {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
     color: whitesmoke;
     font-size: 3em;
     padding: 10px;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     
 }
 
@@ -67,21 +67,15 @@ div {
     flex-direction: column;
 }
 
-.label {
-    background-color: black;
-    padding: 10px;
-    margin-bottom: 0.5em;
-    border-radius: 5px;
-}
 
 .resultado {
     color: rgb(223, 87, 37);
-    background-color: rgb(34, 33, 33);
+    background-color: rgba(34, 33, 33, 0.8);
     border-radius: 5px;
     padding: 10px;
     font-size: 2.5em;
-    margin-top: 60px;
     text-align: center;
+    margin-bottom: 1em;
 }
 
 
@@ -103,12 +97,6 @@ div {
         background-position: center;
     }
 
-    .label {
-        font-size: 1.2em;
-        text-align: center;
-        margin-left: 1em;
-        margin-right: 1em;
-    }
 
     .conteudo {
         font-size: 2em;
