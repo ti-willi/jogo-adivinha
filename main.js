@@ -9,18 +9,15 @@ let cont = 2;
 
 input.focus();
 
-
 function verifica() {
-
-    
 
     while (cont > 0) {
 
-        if(input.value == numero) {
+        if(input.value === numero) {
             resultado.textContent = "Parabéns! Você acertou!"
             return;  
         }
-        else if (cont == 1) {
+        else if (cont === 1) {
             resultado.textContent = "Última tentativa!"
             input.value = ""
             input.focus();
