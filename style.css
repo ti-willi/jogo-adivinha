@@ -15,7 +15,7 @@ body {
 }
 
 .conteudo {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     color: whitesmoke;
     font-size: 3em;
     padding: 10px;
@@ -70,7 +70,7 @@ div {
 
 .resultado {
     color: rgb(223, 87, 37);
-    background-color: rgba(34, 33, 33, 0.8);
+    background-color: rgba(70, 61, 61, 0.5);
     border-radius: 5px;
     padding: 10px;
     font-size: 2.5em;
